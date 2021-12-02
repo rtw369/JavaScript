@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fundamentals Part 3</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <script>
+            console.log(add7(3));
+            function add7 (num) {
+                return num + 7;
+            }
+
+            console.log(multiply(123, 456));
+            function multiply (num1, num2) {
+                return num1 * num2;
+            }
+
+            console.log(capitalize("capitalize"));
+            function capitalize (string) {
+                return string.substring(0,1).toUpperCase()+string.substring(1).toLowerCase();
+            }
+
+            console.log(lastLetter("abcd"));
+            function lastLetter(string){
+                return string.substring(string.length-1);
+            }
+        </script>
+    </body>
+</html>
